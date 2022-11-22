@@ -1,0 +1,14 @@
+Pamiętajcie by dodać folder “.vscode” (z kropką na początku) i wrzucić tam plik “settings.json” z następującym kodem:
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "/**/node_modules/**",
+    "/.vscode/**"
+  ],
+  "liveSassCompile.settings.generateMap": true
